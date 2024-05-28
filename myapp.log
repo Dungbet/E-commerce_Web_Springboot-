@@ -1,0 +1,51 @@
+2024-05-28T16:14:42.769+07:00  INFO 17084 --- [restartedMain] jmaster.io.Project3ITestApplication      : Starting Project3ITestApplication using Java 17.0.6 with PID 17084 (E:\Self Learning\Course Jmaster (Springboot)\Code Spring\Code\Project3\target\classes started by admin in E:\Self Learning\Course Jmaster (Springboot)\Code Spring\Code\Project3)
+2024-05-28T16:14:42.775+07:00  INFO 17084 --- [restartedMain] jmaster.io.Project3ITestApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-05-28T16:14:42.840+07:00  INFO 17084 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\admin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-05-28T16:14:42.840+07:00  INFO 17084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-28T16:14:42.840+07:00  INFO 17084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-28T16:14:43.601+07:00  INFO 17084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-28T16:14:43.686+07:00  INFO 17084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 9 JPA repository interfaces.
+2024-05-28T16:14:44.335+07:00  INFO 17084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-28T16:14:44.345+07:00  INFO 17084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-28T16:14:44.345+07:00  INFO 17084 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-05-28T16:14:44.413+07:00  INFO 17084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-28T16:14:44.413+07:00  INFO 17084 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1572 ms
+2024-05-28T16:14:44.515+07:00  INFO 17084 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-28T16:14:44.715+07:00  INFO 17084 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3cac89fe
+2024-05-28T16:14:44.717+07:00  INFO 17084 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-28T16:14:44.762+07:00  INFO 17084 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-28T16:14:44.846+07:00  INFO 17084 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-05-28T16:14:44.850+07:00  INFO 17084 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-05-28T16:14:45.026+07:00  INFO 17084 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-05-28T16:14:45.185+07:00  INFO 17084 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-28T16:14:45.251+07:00  INFO 17084 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2024-05-28T16:14:45.253+07:00  WARN 17084 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-05-28T16:14:45.576+07:00  INFO 17084 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-05-28T16:14:46.402+07:00  INFO 17084 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-05-28T16:14:47.384+07:00  INFO 17084 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-28T16:14:47.621+07:00  WARN 17084 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: jmaster.io.Repository.UserRepo
+2024-05-28T16:14:47.687+07:00  INFO 17084 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-28T16:14:48.629+07:00  WARN 17084 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: jmaster.io.Repository.RoleRepo
+2024-05-28T16:14:48.709+07:00  WARN 17084 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-28T16:14:48.744+07:00  WARN 17084 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-28T16:14:48.996+07:00  INFO 17084 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6bd7989e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@449ed090, org.springframework.security.web.context.SecurityContextHolderFilter@3e19ee63, org.springframework.security.web.header.HeaderWriterFilter@66a28610, org.springframework.security.web.authentication.logout.LogoutFilter@49ebd87a, jmaster.io.JwtTokenFilter@67e756e5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6bb88bc7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59bc6f33, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d07c094, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6249162d, org.springframework.security.web.access.ExceptionTranslationFilter@4e04f9f6, org.springframework.security.web.access.intercept.AuthorizationFilter@5b3a6973]
+2024-05-28T16:14:49.186+07:00  INFO 17084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-28T16:14:49.230+07:00  INFO 17084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-28T16:14:49.241+07:00  INFO 17084 --- [restartedMain] jmaster.io.Project3ITestApplication      : Started Project3ITestApplication in 6.928 seconds (process running for 7.78)
+2024-05-28T16:14:49.243+07:00  INFO 17084 --- [restartedMain] jmaster.io.DemoData                      : BEGIN INSET
+2024-05-28T16:14:49.446+07:00  INFO 17084 --- [restartedMain] jmaster.io.DemoData                      : INSERT DUMP
+2024-05-28T16:15:20.033+07:00  INFO 17084 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-28T16:15:20.052+07:00  INFO 17084 --- [RMI TCP Connection(10)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-28T16:15:20.056+07:00  WARN 17084 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2024-05-28T16:15:20.062+07:00  INFO 17084 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-28T16:15:20.065+07:00  INFO 17084 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-28T16:15:20.073+07:00  INFO 17084 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
